@@ -1123,7 +1123,25 @@ img {
     }
 
     .hero-image {
-        display: none;
+        display: flex;
+        justify-content: center;
+        margin-top: var(--space-xl);
+        order: -1;
+    }
+
+    .hero-image .image-frame {
+        width: 280px;
+        height: 280px;
+    }
+
+    .doctor-avatar {
+        width: 220px;
+        height: 220px;
+    }
+
+    .tech-ring {
+        width: 260px;
+        height: 260px;
     }
 
     .about-grid {
