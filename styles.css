@@ -1448,6 +1448,17 @@ img {
     color: var(--text-muted);
 }
 
+.pricing-highlight {
+    font-size: 0.875rem;
+    color: var(--primary);
+    font-weight: 600;
+    background: rgba(13, 115, 119, 0.1);
+    padding: var(--space-xs) var(--space-md);
+    border-radius: var(--radius-full);
+    display: inline-block;
+    margin-top: var(--space-sm);
+}
+
 .pricing-features {
     flex: 1;
     margin-bottom: var(--space-xl);
@@ -1462,10 +1473,11 @@ img {
 
 .pricing-features li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: var(--space-sm);
     font-size: 0.9375rem;
     color: var(--text-secondary);
+    line-height: 1.5;
 }
 
 .pricing-features li.not-included {
